@@ -96,10 +96,10 @@
 
         MAC_LAYER {
             bindings = <
-&tdQE       &kp W  &kp E  &kp R             &kp T                                              &kp Y       &kp U  &lt 5 I    &kp O    &kp P
-&kp A       &kp S  &kp D  &lt 4 F           &kp G       &none                 &none            &kp H       &kp J  &kp K      &kp L    &lt 4 MINUS
-&mt LALT Z  &kp X  &kp C  &kp V             &kp B       &none                 &none            &kp N       &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&none       &none  &none  &mt LEFT_WIN TAB  &lt 2 INT5  &mt LSHIFT SPACE      &mt LCTRL ENTER  &lt 3 INT4                             &kp BACKSPACE
+&tdQE       &kp W  &kp E  &kp R             &kp T                                                    &kp Y             &kp U  &lt 5 I    &kp O    &kp P
+&kp A       &kp S  &kp D  &lt 4 F           &kp G             &none                 &none            &kp H             &kp J  &kp K      &kp L    &lt 4 MINUS
+&mt LALT Z  &kp X  &kp C  &kp V             &kp B             &none                 &none            &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&none       &none  &none  &mt LEFT_WIN TAB  &lt 2 LANGUAGE_2  &mt LSHIFT SPACE      &mt LCTRL ENTER  &lt 3 LANGUAGE_1                             &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
